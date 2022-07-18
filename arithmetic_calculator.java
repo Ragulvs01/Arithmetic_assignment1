@@ -15,19 +15,19 @@ class arithmetic_calculator {
    switch(op){
 	   case '+':
 		   r=number1 + number2;
-		   System.out.println("the sum is " +r);
+		   System.out.println("The Addition is " +r);
 		   break;
 	   case '-':
 		   r=number1 - number2;
-		   System.out.println("the sum is " +r);
+		   System.out.println("The Subtraction is " +r);
 		   break;
 	   case '*':
 		   r=number1 * number2;
-		   System.out.println("the sum is " +r);
+		   System.out.println("The Multplication is " +r);
 		   break;
 	   case '/':
 		   r=number1 / number2;
-		   System.out.println("the sum is " +r);
+		   System.out.println("The Division is " +r);
 		   break;   
    }  
    }
