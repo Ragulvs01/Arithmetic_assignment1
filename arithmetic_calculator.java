@@ -10,7 +10,7 @@ class arithmetic_calculator {
     number1= S.nextDouble();
     System.out.println("Enter the Second number");
     number2= S.nextDouble();
-    System.out.println("Choose an operator +,-,*,/ ");
+    System.out.println("Choose the operation you want +,-,*,/: ");
     op = S.next().charAt(0);
    switch(op){
 	   case '+':
@@ -28,7 +28,9 @@ class arithmetic_calculator {
 	   case '/':
 		   r=number1 / number2;
 		   System.out.println("The Division is " +r);
-		   break;   
+		   break;
+	   default :
+			 System.out.println("Kindly choose one of the above options" );	   
    }  
    }
 }
